@@ -2,6 +2,11 @@
 A barcode generation wrapper class using Zint
 ## Requirements
 This lib requires that zint is installed on your server. See http://www.zint.org.uk for details.
+## Installation
+This will be composer installable soon, once I have written unit tests and tagged a stable release. In the meantime, you can copy this class, and require it's only dependency, the awesome PHP League's Flysystem.
+```
+composer require league/flysystem
+```
 ## Usage
 ```php
 use Del\Barcode\Service\BarcodeService;
